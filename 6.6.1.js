@@ -1,16 +1,17 @@
-const word1 = "Довод";
-const word2 = "Сантимент";
-const reverse1 = word1.split('').reverse().join('').toLowerCase();
-const reverse2 = word2.split('').reverse().join('').toLowerCase();
-if (word1.toLowerCase() === reverse1) {
-  console.log(`Слово ${word1} является палиндромом`)
+const wordFirst = "Довод";
+const reverseWordFirst = wordFirst.split('').reverse().join('').toLowerCase();
+if (wordFirst.toLowerCase() === reverseWordFirst) {
+  console.log(`Слово ${wordFirst} является палиндромом`)
 }
 else {
-  console.log(`Слово ${word1} не является палиндромом`)
+  console.log(`Слово ${wordFirst} не является палиндромом`)
 }
-if (word2.toLowerCase() === reverse2) {
-  console.log(`Слово ${word2} является палиндромом`)
+
+const wordSecond = "Сантимент";
+const reverseWordSecond = wordSecond.split('').reverse().join('').toLowerCase();
+if (wordSecond.toLowerCase() === reverseWordSecond) {
+  console.log(`Слово ${wordSecond}e является палиндромом`)
 }
 else {
-  console.log(`Слово ${word2} не является палиндромом`)
+  console.log(`Слово ${wordSecond} не является палиндромом`)
 }
